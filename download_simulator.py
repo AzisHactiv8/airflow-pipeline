@@ -8,7 +8,7 @@ from kafka import KafkaProducer
 
 producer = KafkaProducer(bootstrap_servers='localhost':9092)
 
-TOPIC = 'toll'
+TOPIC = 'set your topic here'
 
 VEHICLE_TYPES = ("car", "car", "car", "car", "car", "car", "car",
                  "car", "car", "car", "Truck", "Truck", "Truck",
